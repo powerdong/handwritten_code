@@ -8,7 +8,7 @@ const myApply = function(context) {
   // 第二个参数可以不传，但类型必须为数组
   const args = arguments[1]
   context[key] = this
-  const result = args ? context[key](...args) : context[key]()
+  const result = args ? context[key](args) : context[key]()
   delete context[key]
   return result
 }
