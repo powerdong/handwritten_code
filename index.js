@@ -6,4 +6,5 @@ import myInstanceof from './myInstanceof';
 import {deepClone, deepClonePlus} from './deepClone';
 import debounce from './debounce';
 import { throttle, throttleNewDate, throttleSetTimeout } from './throttle';
+import myMap from './myMap';
 
